@@ -14,11 +14,11 @@ public class LockedMeMenuOptions {
 	public void LockedMeMenuOptions ()
 	{
 	
-	int input=-1;
-	do
-	{
 	    System.out.println("\n========================Main Menu===============================");
 	    System.out.printf("\n1. Retrive Files in the Folder  \n2. File Menu Options  \n0. Exit \n");
+	    int input=-1;
+		do
+		{
 Scanner sc=new Scanner(System.in);
 System.out.println("\n ****Enter your option from the above Main  Menu:****");
 	input = sc.nextInt();
